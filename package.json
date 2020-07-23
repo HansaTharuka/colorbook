@@ -1,0 +1,20 @@
+{
+	"name": "Colorbook",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/liyasthomas/colorbook.git"
+	},
+	"description": "Color schemes for UI design",
+	"main": "travis.js",
+	"author": "liyasthomas",
+	"version": "0.0.1",
+	"devDependencies": {
+		"jshint": "^2.10.2"
+	},
+	"engines": {
+		"node": "12.16.3"
+	  },
+	"scripts": {
+		"test": "jshint travis.js"
+	}
+}
